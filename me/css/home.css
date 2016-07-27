@@ -1,0 +1,305 @@
+body {
+		color:yellow;
+		background-color:red;
+		text-align: center;
+	}
+
+a {
+	font-size: 25px;
+	color: red;
+	background-color:yellow
+}
+
+
+a:link {
+	text-decoration:none;
+	padding: 5px 10px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+
+#capcoldp {
+	font-size: 25px;
+	background-color:rgb(3,106,172);
+	color:white;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#capcold {
+	
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(3,106,172);;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+#heatwavep {
+	font-size: 25px;
+	background-color:rgb(251,202,61);
+	color:white;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#heatwave {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(241,156,75);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#mirmas2p {
+	font-size: 25px;
+	background-color:orange;
+	color:green;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#mirmas2 {
+	font-family: Impact, Charcoal, sans-serif;
+	color: orange;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#capboomp {
+	font-size: 25px;
+	background-color:blue;
+	color:green;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#capboom {
+	font-family: Impact, Charcoal, sans-serif;
+	color: blue;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#trix2p {
+	font-size: 25px;
+	background-color:rgb(5,67,88);
+	color:green;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#trix2 {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(5,67,88);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#trixp {
+	font-size: 25px;
+	background-color:rgb(234,98,50);
+	color:green;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#trix {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(234,98,50);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#topp {
+	font-size: 25px;
+	background-color:green;
+	color:green;
+	font-family: Impact, Charcoal, sans-serif;
+	color: yellow;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#top {
+	font-family: Impact, Charcoal, sans-serif;
+	color: green;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#goldenp {
+	font-size: 25px;
+	background-color:rgb(251,223,116);
+	color:green;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#golden {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(251,223,116);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#dralp {
+	font-size: 25px;
+	background-color:rgb(27,64,153);
+	
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(212,233,114);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#dral {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(27,64,153);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#piedpiperp {
+	font-size: 25px;
+	background-color:rgb(133,147,50);
+	
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#piedpiper {
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(133,147,50);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#rainbowraiderp {
+	font-size: 25px;
+	background-color: black;
+	
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#rainbowraider {
+	font-family: Impact, Charcoal, sans-serif;
+	color: black;
+
+}
+
+.red {
+	color:red;
+}
+
+.orange {
+	color:orange;
+}
+
+.yellow {
+	color:yellow;
+}
+
+.green {
+	color:green;
+}
+
+
+
+

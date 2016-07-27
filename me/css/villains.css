@@ -1,0 +1,30 @@
+body {
+	color:yellow;
+	background-color:red;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+
+a {
+	font-size: 25px;
+	color: red;
+	background-color:yellow
+}
+
+
+a:link {
+	text-decoration:none;
+	padding: 5px 10px;
+	
+}
+
+h1 {
+	font-size: 40px;
+}
+
+#nopad {
+	padding:0px 0px ;
+	background-color:red;
+}
+
