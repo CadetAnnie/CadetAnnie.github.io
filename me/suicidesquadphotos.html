@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suicide Squad Photos</title>
+</head>
+
+<link rel="stylesheet" href="../css/animate.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+        new WOW().init();
+    </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<link rel = "stylesheet" href = "../css/photos.css" type = "text/css">
+
+<body>
+<h1 style= "text">Flash's Rogues</h1>
+
+<a href = "../home.html">Home</a>
+<a href = "../villains.html">Villains</a>
+<a href = "../photogallary.html">Photos</a>
+
+</br>
+</br>
+</br>
+<div class="wow zoomIn">
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides" src="http://www.suicidesquad.com/assets/images/gallery/group.jpg" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://www.suicidesquad.com/assets/images/gallery/13.jpg" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://www.suicidesquad.com/assets/images/gallery/14.jpg" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://media.comicbook.com/2016/07/boomerang-jaicourtney-suicidesquad-a-189111-1280x0.png" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="https://575717b777ff8d928c6b-704c46a8034042e4fc898baf7b3e75d9.ssl.cf1.rackcdn.com/9578848_check-out-these-new-suicide-squad-movie_2b7a1a96_m.jpg?bg=585255" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"></a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"></a>
+
+</div>
+
+</br>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+
+
+<br>
+<br>
+</div>
+<div id= "face" class = "whoa">
+	This Website Was Created By Annabelle Land
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New 52 Photos</title>
+</head>
+
+<link rel="stylesheet" href="../css/animate.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+        new WOW().init();
+    </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<link rel = "stylesheet" href = "../css/photos.css" type = "text/css">
+
+<body>
+<h1 style= "text">Flash's Rogues</h1>
+
+<a href = "../home.html">Home</a>
+<a href = "../villains.html">Villains</a>
+<a href = "../photogallary.html">Photos</a>
+
+</br>
+</br>
+<h2>New 52 Photo Gallary</h2>
+</br>
+
+<div class="wow zoomIn">
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides" src="https://nothingbutcomics.files.wordpress.com/2015/02/the-flash-rogues2.jpeg" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://1.bp.blogspot.com/-4h__0hHeG9Q/Uunb1xmYZTI/AAAAAAAABzM/D31_qyJY3DU/s1600/photo+4.PNG" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://1.bp.blogspot.com/-dvnKew5p5Nw/UuvwSkyg-5I/AAAAAAAAB0I/FGzCn6S9P58/s1600/photo+2.PNG" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://static.srcdn.com/slir/w620-h320-q90-c620:320/wp-content/uploads/The-Flash-Move-Forward-Comic-Captain-Cold-3.jpg" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<img class="mySlides" src="http://static.srcdn.com/slir/w620-h320-q90-c620:320/wp-content/uploads/The-Flash-Captain-Cold-Heat-Wave-New-52.jpg" style="width:100%; height:500px; margin-left:auto; margin-right:auto">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0;color:red;" onclick="plusDivs(-1)">&#10094;</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0;color:red;" onclick="plusDivs(+1)">&#10095;</a>
+
+</div>
+
+</br>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+
+
+
+</div>
+<div id= "face" class = "whoa">
+	This Website Was Created By Annabelle Land
+</div>
+
+</body>
+</html>
+
