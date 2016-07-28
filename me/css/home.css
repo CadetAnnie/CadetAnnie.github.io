@@ -4,6 +4,12 @@ body {
 		text-align: center;
 	}
 
+img {
+    color:yellow;
+    border-width: 5px;
+    border-style:solid;
+}
+
 a {
 	font-size: 25px;
 	color: red;
@@ -22,7 +28,7 @@ h1 {
 
 
 #capcoldp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:rgb(3,106,172);
 	color:white;
 	font-family: Impact, Charcoal, sans-serif;
@@ -48,11 +54,10 @@ h1 {
 
 
 #heatwavep {
-	font-size: 25px;
-	background-color:rgb(251,202,61);
-	color:white;
+	font-size: 35px;
+	background-color:rgb(241,156,75);
 	font-family: Impact, Charcoal, sans-serif;
-	color: white;
+	color: orange;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -63,7 +68,7 @@ h1 {
 
 #heatwave {
 	font-family: Impact, Charcoal, sans-serif;
-	color: rgb(241,156,75);
+	color: orange;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -72,11 +77,11 @@ h1 {
 }
 
 #mirmas2p {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:orange;
 	color:green;
 	font-family: Impact, Charcoal, sans-serif;
-	color: white;
+	
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -87,7 +92,7 @@ h1 {
 
 #mirmas2 {
 	font-family: Impact, Charcoal, sans-serif;
-	color: orange;
+	color: green;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -96,7 +101,7 @@ h1 {
 }
 
 #capboomp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:blue;
 	color:green;
 	font-family: Impact, Charcoal, sans-serif;
@@ -120,7 +125,7 @@ h1 {
 }
 
 #trix2p {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:rgb(5,67,88);
 	color:green;
 	font-family: Impact, Charcoal, sans-serif;
@@ -144,7 +149,7 @@ h1 {
 }
 
 #trixp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:rgb(234,98,50);
 	color:green;
 	font-family: Impact, Charcoal, sans-serif;
@@ -168,7 +173,7 @@ h1 {
 }
 
 #topp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:green;
 	color:green;
 	font-family: Impact, Charcoal, sans-serif;
@@ -192,7 +197,7 @@ h1 {
 }
 
 #goldenp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:rgb(251,223,116);
 	color:green;
 	font-family: Impact, Charcoal, sans-serif;
@@ -216,7 +221,7 @@ h1 {
 }
 
 #dralp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:rgb(27,64,153);
 	
 	font-family: Impact, Charcoal, sans-serif;
@@ -240,7 +245,7 @@ h1 {
 }
 
 #piedpiperp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color:rgb(133,147,50);
 	
 	font-family: Impact, Charcoal, sans-serif;
@@ -264,7 +269,7 @@ h1 {
 }
 
 #rainbowraiderp {
-	font-size: 25px;
+	font-size: 35px;
 	background-color: black;
 	
 	font-family: Impact, Charcoal, sans-serif;
@@ -298,6 +303,14 @@ h1 {
 
 .green {
 	color:green;
+}
+
+.blue {
+    color:blue;
+}
+
+.purple {
+    color:purple;
 }
 
 
