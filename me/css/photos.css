@@ -44,7 +44,7 @@ h2 {
     1px 1px 0 #000;  
 }
 
-#centering {
+.centering {
 	margin-right: auto;
 	margin-left: auto;
 }
