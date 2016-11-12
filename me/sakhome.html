@@ -3,10 +3,32 @@
   <title>Home</title>
 </head>
 <style>
-  #title{
-    text-align: center;
-    font-size: 200%;
+  div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+  nav{
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
   }
+  header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-size:200%;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: white;
+}
+
   #home{
     background-color:white;
     color:black;
@@ -79,18 +101,18 @@
     width: 250px;
     text-align: center;
    }
-    .homeinfo {
-      background-color:white;
-      width: 750px;
-      height: 750px;
-    }
+
 </style>
 <body>
-<h1 id = "title">SAKBlackBelts</h1>
-<div class = "homeinfo">
+<div class="container">
+<header>
+  <h1>SAKBlackBelts</h1>
+</header>
+  
+<article>
   <h2>This website is for all Safety America Karate Black Belts</h2>
-  </div>
-<div class = "tab"> 
+</article>
+<nav>
   <h1 id = "home">Home</h1>
   <h1 id = "schedule">Schedule</h1>
   <h1 id = "excercises">Excercises</h1>
@@ -100,6 +122,6 @@
   <h1 id = "aboutzdk">About Zendokai</h1>
   <h1 id = "aboutsak">About SAK</h1>
   <h1 id = "blackbelts">Black Belts</h1>
-</div>
+ </nav>
 </body>
 </html>
