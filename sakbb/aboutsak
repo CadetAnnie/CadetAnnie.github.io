@@ -1,0 +1,124 @@
+<html>
+<head>
+  <title>About Safety America Karate</title>
+</head>
+<style>
+  div.container { 
+    width: 100%;
+    border: 1px solid gray;
+} 
+  nav{
+    float: left;
+    max-width: 250;
+    max-height: 650px;
+    margin: 0;
+    background-color: gray;
+    padding: 1em;
+    text-decoration: none;
+  }
+  header {
+    color: white;
+    background-color: black;
+    clear: left;
+    padding: .1em;
+    text-align: center;
+    font-size:150%;
+}
+article {
+    margin-left: 250px;
+    border-left: 1px solid gray;
+    height: 500px;
+    padding: 1em;
+    overflow: hidden;
+    background-color: brown;
+    color: white;}
+  #home{ 
+    background-color:white; 
+    color:black; 
+    border-style:solid;
+    border-color:black;
+ 
+    text-align: center;
+  }
+  #schedule{
+    background-color:yellow;
+    color:white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+  }
+  #excercises{
+    background-color:orange;
+    color:white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+  }
+  #events{
+    background-color:green;
+    color:white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+  }
+  #photos{
+    background-color:blue;
+    color: white;
+    border-style:solid;
+    border-color:black;
+    width: 250px;
+    text-align: center;
+  }
+  #aboutk{
+    background-color:purple;
+    color: white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+  }
+  #aboutzdk{
+    background-color:red;
+    color: white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+  }
+  #aboutsak{
+    background-color:brown;
+    color: white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+  }
+  #blackbelts{
+    background-color:black;
+    color: white;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+   }
+</style>
+<body>
+<div class="container">
+<header>
+  <h1>SAKBlackBelts</h1>
+</header>
+
+<nav>
+  <a href = "home.html"><h1 id = "home">Home</h1></a>
+  <a href = "schedule.html"><h1 id = "schedule">Schedule</h1></a>
+  <a href = "excercises.html"><h1 id = "excercises">Excercises</h1></a>
+  <a href = "events.html"><h1 id = "events">Recent Events</h1></a>
+  <a href = "photos.html"><h1 id = "sakphotos">Photos</h1></a>
+  <a href = "aboutk.html"><h1 id = "aboutk">About Karate</h1></a>
+  <a href = "aboutzdk.html"><h1 id = "aboutzdk">About Zendokai</h1></a>
+  <a href = "aboutsak.html"><h1 id = "aboutsak">About SAK</h1></a>
+  <a href = "blackbelts.html"><h1 id = "blackbelts">Black Belts</h1></a>
+  </nav>
+    
+<article>
+  <h2>About Safety America Karate</h2>
+</article>
+ </div> 
+</body>
+</html>
