@@ -1,0 +1,1 @@
+Everyone please work on only your project. There is a changelog that is in the files. Any alterations, additions, or any changes at all to any of the files present, please put in the changelog. I have an entry as an example. This is so we can keep track of who did what and what was added. This also includes if any files were deleated or uploaded.
