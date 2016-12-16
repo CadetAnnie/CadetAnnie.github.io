@@ -1,0 +1,7 @@
+-editor:
+Dawson Page
+-date:
+12/16/16
+-changes:
+added to github. Made beginning template for cover (front) page.
+
