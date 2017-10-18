@@ -1,0 +1,148 @@
+<html>
+<head>
+	<title>Math Master</title>
+	<link rel="stylesheet" type="text/css" href="math.css">
+</head>
+<body>
+<div id="whole">
+<span>
+<center>
+<div id="belt">
+<h1>Mathmatical Martial Arts Master</h1>
+<br>
+<form id="form1">
+	<button type="button" onclick="newProb()">Begin Your Training</button>
+	<p id="question"></p>
+	<input name="name" id = "name" type = "text" size = "3">  <button type="button" onclick = "outputname()">Check</button><br>
+	</form>
+	
+	
+	
+	<script>
+		var colorThreshold = 40,
+    		spanText = document.querySelector('span');
+
+		function changeColor(val) {
+    		var color = "white";
+			
+			if (score == 0){
+				document.getElementById('belt').style.backgroundColor = "white";
+				document.getElementById('whole').style.backgroundColor = "black";
+				document.getElementById('belt').style.color = "black";}
+    		else if (score == 1) {
+        		document.getElementById('belt').style.backgroundColor = "yellow";} 
+			else if (score == 2) {
+        		document.getElementById('belt').style.backgroundColor = "orange";}
+			else if (score == 3) {
+        		document.getElementById('belt').style.backgroundColor = "green";}
+			else if (score == 4) {
+        		document.getElementById('belt').style.backgroundColor = "blue";}
+			else if (score == 5) {
+        		document.getElementById('belt').style.backgroundColor = "purple";}
+			else if (score == 6) {
+        		document.getElementById('belt').style.backgroundColor = "red";}
+			else if (score == 7) {
+        		document.getElementById('belt').style.backgroundColor = "brown";}
+			else if (score == 8) {
+				document.getElementById('belt').style.backgroundColor = "black";
+				document.getElementById('belt').style.color = "white";
+				document.getElementById('whole').style.backgroundColor = "white";}
+		}
+
+		
+	
+		var score = 0;
+		var done = false;
+		var belts = new Array("White", "Yellow", "Orange", "Green", "Blue", "Purple", "Red", "Brown", "Black");
+		
+		function newProb(){
+			if (score == 8){
+				score=0;
+				clear();
+			}
+			if (score == 0 || score == 4){
+				num1=Math.floor(Math.random()*5+1);
+				num2=Math.floor(Math.random()*5+1);
+			}
+			if(score == 1 || score == 5){
+				num1=Math.floor(Math.random()*10+1);
+				num2=Math.floor(Math.random()*10+1);
+			}
+			if(score == 2 || score == 6){
+				num1=Math.floor(Math.random()*20+10);
+				num2=Math.floor(Math.random()*20+10);
+			}
+			if(score == 3 || score == 7){
+				num1=Math.floor(Math.random()*100+30);
+				num2=Math.floor(Math.random()*100+30);
+			}
+			
+			if (score<4){
+				document.getElementById("question").innerHTML=num1+" + " + num2 + " = ";
+			}
+			if (score>=4){
+				document.getElementById("question").innerHTML=num1+" * " + num2 + " = ";
+			}
+		}
+		
+		function clear(){
+			document.getElementById("name").value="";
+			changeColor(colorThreshold);
+		}
+		function outputname(){
+			if (score == 8){
+				score = 0;
+			}
+			var x, y, name, a, b, answer;
+			x = document.getElementById("form1");
+			y = x.elements["name"].value;
+			
+			if(score==0 || score ==1 || score == 2 || score == 3){
+				if(y==num1+num2){
+				score +=1;
+				done = true;
+				newProb();
+				clear();
+				document.getElementById("demo").innerHTML="You're correct! You have earned your " + belts[score] + " belt.";
+				}
+			else{
+				score = 0;
+				newProb();
+				clear();
+				document.getElementById("demo").innerHTML="You're Wrong. You are now a White Belt again.";}
+			}
+			else if (score== 4 || score == 5 || score == 6 || score == 7 || score == 8){
+				if(y==num1*num2){
+					score +=1;
+					done = true;
+					if (score == 8){
+						document.getElementById("question").innerHTML="You Are Now a Mathmatical Martial Arts Master!";
+						document.getElementById("demo").innerHTML="You have earned your Black Belt!";
+						clear();
+					}
+					
+					if(score<8 && score >0){
+						clear();
+						newProb();
+						document.getElementById("demo").innerHTML="You're correct! You have earned your " + belts[score] + " belt.";
+					}
+					
+				}
+				else{
+					score = 0;
+					newProb()
+					clear()
+					document.getElementById("demo").innerHTML="You're Wrong. You are now a White Belt again.";
+				}
+			}
+			
+		}
+	</script>
+	
+	<p id="demo"></p><br>
+</div>	
+</center>
+</span>
+</div>
+</body>
+</html>
